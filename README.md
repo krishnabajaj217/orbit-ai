@@ -69,8 +69,6 @@ Orbit also uses a planner prompt when explicit deterministic detection is insuff
 ---
 
 ## 🏗️ System Architecture
-
-```mermaid
 flowchart TD
 
     U[👤 User]
