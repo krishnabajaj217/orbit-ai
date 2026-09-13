@@ -1,0 +1,34 @@
+# Secrets
+backend/.env
+.env
+.env.*
+!.env.example
+
+# Python
+backend/.venv/
+backend/venv/
+backend/env/
+backend/**/__pycache__/
+backend/**/*.py[cod]
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Orbit AI local memory
+backend/data/memories/
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
